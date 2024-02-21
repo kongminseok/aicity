@@ -1,1 +1,23 @@
 # 2024 AI CITY CHALLENGE 
+
+## Track 5: Detecting Violation of Helmet Rule for Motorcyclists
+
+Motorcycles are one of the most popular modes of transportation, particularly in developing countries such as India. Due to lesser protection compared to cars and other standard vehicles, motorcycle riders are exposed to a greater risk of crashes. Therefore, wearing helmets for motorcycle riders is mandatory as per traffic rules and automatic detection of motorcyclists without helmets is one of the critical tasks to enforce strict regulatory traffic safety measures.
+
+- Data
+
+The training dataset contains 100 videos and groundtruth bounding boxes of motorcycle and motorcycle rider(s) with or without helmets. Each video is 20 seconds duration, recorded at 10 fps. The video resolution is 1920×1080.
+
+Each motorcycle in the annotated frame has bounding box annotation of each rider with or without helmet information, for upto a maximum of 4 riders in a motorcycle. The class id (labels) of the object classes in this dataset is as follows:
+
+```
+1, motorbike: bounding box of motorcycle
+2, DHelmet: bounding box of the motorcycle driver, if he/she is wearing a helmet
+3, DNoHelmet: bounding box of the motorcycle driver, if he/she is not wearing a helmet
+4, P1Helmet: bounding box of the passenger 1 of the motorcycle, if he/she is wearing a helmet
+5, P1NoHelmet: bounding box of the passenger 1 of the motorcycle, if he/she is not wearing a helmet
+6, P2Helmet: bounding box of the passenger 2 of the motorcycle, if he/she is wearing a helmet
+7, P2NoHelmet: bounding box of the passenger 2 of the motorcycle, if he/she is not wearing a helmet
+8, P0Helmet: bounding box of the child sitting in front of the Driver of the motorcycle, if he/she is wearing a helmet
+9, P0NoHelmet: bounding box of the child sitting in front of the Driver of the motorcycle, if he/she is wearing not a helmet
+```
