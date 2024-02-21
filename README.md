@@ -1,11 +1,7 @@
-# 2024 AI CITY CHALLENGE
-### [Page](https://www.aicitychallenge.org/) 
+# [2024 AI CITY CHALLENGE](https://www.aicitychallenge.org/) 
 
 
-[Minseok Kong](https://kongminseok.github.io/),
-Jeongae Lee,
-Jinhee Park,
-Jiho Park
+[Minseok Kong](https://kongminseok.github.io/) | Jeongae Lee | Jinhee Park | Jiho Park
 
 
 ## Intro
