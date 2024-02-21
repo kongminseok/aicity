@@ -23,5 +23,32 @@ Each motorcycle in the annotated frame has bounding box annotation of each rider
 ```
 ### Directory Layout
 ```
-
+aicity
+|── cfg
+|   └── yolov8.yaml
+├── data
+|   |── data_analysis.ipynb
+|   |── data.py
+|   └── ffmpeg.py
+├── datasets
+|   |── raw_dataset
+|   |   |── images
+|   |   |   |── train
+|   |   |   └── test
+|   |   |── labels
+|   |   |   └──  train
+|   |   |── videos
+|   |   |   |── train
+|   |   |   └── test
+|   |   |── gt.txt
+|   |   └── labels.txt
+|   └── yolo_dataset
+|       |── images
+|       |   |── train
+|       |   |── test 
+|       |   └── val
+|       └── labels 
+|           |── train
+|           └── val    
+└── yolov8.py
 ```
