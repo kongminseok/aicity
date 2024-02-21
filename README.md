@@ -28,6 +28,9 @@ Each motorcycle in the annotated frame has bounding box annotation of each rider
 ```
 ## Training
 ### STEP 1
+** Frame Extraction **
+
+Submissions for track 5 require frame IDs for frames that contain information of interest. We use the [FFmpeg library](https://www.ffmpeg.org/) to extract/count frames to ensure frame IDs are consistent across teams.
 ```
 cd data
 python ffmpeg.py
