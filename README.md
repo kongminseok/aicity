@@ -21,3 +21,7 @@ Each motorcycle in the annotated frame has bounding box annotation of each rider
 8, P0Helmet: bounding box of the child sitting in front of the Driver of the motorcycle, if he/she is wearing a helmet
 9, P0NoHelmet: bounding box of the child sitting in front of the Driver of the motorcycle, if he/she is wearing not a helmet
 ```
+### Directory Layout
+```
+
+```
