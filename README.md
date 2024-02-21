@@ -10,7 +10,7 @@ The training dataset contains 100 videos and groundtruth bounding boxes of motor
 
 Each motorcycle in the annotated frame has bounding box annotation of each rider with or without helmet information, for upto a maximum of 4 riders in a motorcycle. The class id (labels) of the object classes in this dataset is as follows:
 
-```shell
+```
 1, motorbike: bounding box of motorcycle
 2, DHelmet: bounding box of the motorcycle driver, if he/she is wearing a helmet
 3, DNoHelmet: bounding box of the motorcycle driver, if he/she is not wearing a helmet
