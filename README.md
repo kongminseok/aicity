@@ -9,7 +9,7 @@
 
 Motorcycles are one of the most popular modes of transportation, particularly in developing countries such as India. Due to lesser protection compared to cars and other standard vehicles, motorcycle riders are exposed to a greater risk of crashes. Therefore, wearing helmets for motorcycle riders is mandatory as per traffic rules and automatic detection of motorcyclists without helmets is one of the critical tasks to enforce strict regulatory traffic safety measures.
 
-- Data
+- **Data**
 
 The training dataset contains 100 videos and groundtruth bounding boxes of motorcycle and motorcycle rider(s) with or without helmets. Each video is 20 seconds duration, recorded at 10 fps. The video resolution is 1920×1080.
 
@@ -28,7 +28,7 @@ Each motorcycle in the annotated frame has bounding box annotation of each rider
 ```
 ## Training
 ### STEP 1
-**Frame Extraction**
+- **Frame Extraction**
 
 Submissions for track 5 require frame IDs for frames that contain information of interest. We use the [FFmpeg library](https://www.ffmpeg.org/) to extract/count frames to ensure frame IDs are consistent across teams.
 ```
