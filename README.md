@@ -1,9 +1,9 @@
 # [2024 AI CITY CHALLENGE](https://www.aicitychallenge.org/) 
 
-[Minseok Kong](https://kongminseok.github.io/)
-[Jeongae Lee]
-[Jinhee Park]
-[Jiho Park]
+[Minseok Kong](https://kongminseok.github.io/),   
+[Jeongae Lee],   
+[Jinhee Park],   
+[Jiho Park],   
 
 ## [Intro](https://www.aicitychallenge.org/2024-data-and-evaluation/)
 ### Track 5: Detecting Violation of Helmet Rule for Motorcyclists
